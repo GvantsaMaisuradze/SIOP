@@ -1,0 +1,40 @@
+.header__bottom{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 5;
+    padding: 20px 0;
+    background-color: rgba(255,255,255,.4);
+    align-items: center;
+    text-align: center;
+}
+.header__bottom-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo-link{
+    font-size: 15px;
+    line-height: 0;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+.header__logo-link h1::first-letter{
+    font-weight: 700;
+    font-size: 35px;
+}
+.header__logo-link span{
+    font-weight: 700;
+}
+
+.header__bottom-items{
+    display: flex;
+}
+.header__bottom-item{
+    padding-right: 20px;
+    font-size: 14px;
+}
+.header__bottom-link{
+    color: #fff;
+}

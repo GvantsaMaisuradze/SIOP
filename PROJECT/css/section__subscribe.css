@@ -1,0 +1,33 @@
+.section__subscribe{
+    width: 100%;
+    float: left;
+    padding-bottom: 70px;
+    background: #B0CA35;
+}
+.section__subscribe-container{
+    text-align: center;
+}
+.section__subscribe-subtitle,
+.section__subscribe-title{
+    font-weight: 400;
+}
+.section__subscribe-subtitle{
+    margin: 100px 0 10px;
+}
+.section__subscribe-title{
+    margin-top: 16px;
+    font-size: 41px;
+    line-height: 33px;
+    padding-bottom: 50px;
+}
+.section__subscribe-button a{
+    background: #fff;
+    color: #B0CA35;
+    padding: 15px 33px;
+}
+.section__subscribe-button a:hover{
+    background:#B0CA35;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 35px;
+}

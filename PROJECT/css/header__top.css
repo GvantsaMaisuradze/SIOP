@@ -1,0 +1,40 @@
+.header__top{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    padding: 20px 0;
+}
+.header__top-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header__top-left{
+    display: flex;
+    text-transform: uppercase;
+}
+.header__top-phone{
+    margin-right: 25px;
+}
+.header__phone-num{
+    color: #fff;
+}
+.header__top-left i {
+    padding-right: 10px;
+}
+.header__top-left i:last-of-type{
+    padding: 0;
+}
+.header__top-socials{
+    display: flex;
+    margin: 0;
+    font-size: 15px;
+    padding-left: 0;
+}
+.header__top-icons{
+    margin-right: 15px;
+}
+.header__top-link{
+    color: #B0CA35;
+}
